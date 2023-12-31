@@ -28,7 +28,7 @@ const JobListings = () => {
       <div className="container mx-auto p-2 md:p-8">
         <form onSubmit={handleFilterSubmit} className="mb-4">
           <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4">
-            <div className="text-4xl font-bold text-black">QuickHire</div>
+            <div className="text-4xl font-bold text-black">JobVista</div>
             <input
               type="text"
               placeholder="Filter by job title"
