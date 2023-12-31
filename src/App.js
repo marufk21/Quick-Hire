@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Provider } from "react-redux";
+import store from "./store/store";
+import JobListings from "./Components/JobListings";
+import JobDetails from "./Components/JobDetails";
+import JobEmployerForm from "./Components/JobEmployerForm";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Provider store={store}>
+        <div className="App">
+          <Routes>
+            <Route path="/" exact element={<JobListings />} />
+            <Route path="/JobDetails" element={<JobDetails />} />
+            <Route path="/JobEmployerForm" element={<JobEmployerForm />} />
+          </Routes>
+        </div>
+      </Provider>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
