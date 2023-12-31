@@ -19,6 +19,13 @@ Link: https://jobvistajob.netlify.app/
 - **View Job Details:**
   - Explore specific job details.
 
+- **Pagination:**
+  - Navigate through job listings with pagination controls.
+
+- **Loader:**
+  - Display a loading spinner while fetching job data.
+
+
 ## Project Structure
 
 ```
