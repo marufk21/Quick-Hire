@@ -1,6 +1,6 @@
 # JobVista
 
-This React Redux app lets users filter job listings, view details, and apply for jobs.
+The JobVista app is a powerful tool designed to streamline the job search process for users. With a combination of React and Redux, this application provides a seamless and efficient experience for job seekers.
 
 Link: https://jobvistajob.netlify.app/
 

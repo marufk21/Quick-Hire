@@ -16,8 +16,7 @@ const jobSlice = createSlice({
         const titleMatch = title ? job.title.toLowerCase().includes(title.toLowerCase()) : true;
         const locationMatch = location ? job.location.toLowerCase().includes(location.toLowerCase()) : true;
         const companyMatch = company ? job.company.toLowerCase().includes(company.toLowerCase()) : true;
-
-        // Return true only if all specified criteria match
+        
         return titleMatch && locationMatch && companyMatch;
       });
     },
