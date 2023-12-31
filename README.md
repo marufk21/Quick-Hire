@@ -35,6 +35,7 @@ src/
 |   |-- JobListingCard.js
 |   |-- JobDetails.js
 |   |-- JobEmployerForm.js
+|   |-- Loader.js
 |-- features/
 |   |-- jobSlice.js
 |-- store/
