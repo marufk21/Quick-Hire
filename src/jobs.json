@@ -1,115 +1,114 @@
 [
-  {
-    "id": 1,
-    "title": "Software Engineer",
-    "company": "TechCo",
-    "location": "San Francisco, CA",
-    "responsibilities": [
-      "Design and develop software solutions.",
-      "Collaborate with cross-functional teams.",
-      "Write clean, maintainable code."
-    ]
-  },
-  {
-    "id": 2,
-    "title": "UX Designer",
-    "company": "Design Solutions",
-    "location": "New York, NY",
-    "responsibilities": [
-      "Create user-centered designs.",
-      "Conduct user research and testing.",
-      "Collaborate with development teams."
-    ]
-  },
-  {
-    "id": 3,
-    "title": "Marketing Specialist",
-    "company": "MarketBoost",
-    "location": "Los Angeles, CA",
-    "responsibilities": [
-      "Develop and implement marketing strategies.",
-      "Create engaging content for various channels.",
-      "Analyze market trends and competitor activities."
-    ]
-  },
-  {
-    "id": 4,
-    "title": "Data Scientist",
-    "company": "Data Insights",
-    "location": "Seattle, WA",
-    "responsibilities": [
-      "Collect and analyze large datasets.",
-      "Build predictive models.",
-      "Present findings to stakeholders."
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Product Manager",
-    "company": "InnovateTech",
-    "location": "Austin, TX",
-    "responsibilities": [
-      "Define product strategy and roadmap.",
-      "Collaborate with development and design teams.",
-      "Gather and prioritize product requirements."
-    ]
-  },
-  {
-    "id": 6,
-    "title": "Frontend Developer",
-    "company": "WebCrafters",
-    "location": "Chicago, IL",
-    "responsibilities": [
-      "Implement user interfaces with modern frameworks.",
-      "Optimize web applications for performance.",
-      "Collaborate with backend developers."
-    ]
-  },
-  {
-    "id": 7,
-    "title": "Graphic Designer",
-    "company": "Creative Studios",
-    "location": "Miami, FL",
-    "responsibilities": [
-      "Design visually appealing graphics and layouts.",
-      "Create illustrations and digital artwork.",
-      "Collaborate with marketing teams."
-    ]
-  },
-  {
-    "id": 8,
-    "title": "Network Engineer",
-    "company": "ConnectTech",
-    "location": "Denver, CO",
-    "responsibilities": [
-      "Design and implement network infrastructure.",
-      "Troubleshoot network issues.",
-      "Collaborate with IT teams."
-    ]
-  },
-  {
-    "id": 9,
-    "title": "HR Manager",
-    "company": "PeopleFirst",
-    "location": "Dallas, TX",
-    "responsibilities": [
-      "Manage recruitment and onboarding processes.",
-      "Handle employee relations and HR policies.",
-      "Collaborate with leadership on HR strategy."
-    ]
-  },
-  {
-    "id": 10,
-    "title": "iOS Developer",
-    "company": "App Innovators",
-    "location": "San Jose, CA",
-    "responsibilities": [
-      "Develop and maintain iOS applications.",
-      "Collaborate with cross-functional teams.",
-      "Optimize app performance for iOS devices."
-    ]
-  },
-
+    {
+      "id": 1,
+      "title": "Software Engineer",
+      "company": "TechCo",
+      "location": "San Francisco, CA",
+      "responsibilities": [
+        "Design and develop software solutions.",
+        "Collaborate with cross-functional teams.",
+        "Write clean, maintainable code."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "UX Designer",
+      "company": "Design Solutions",
+      "location": "New York, NY",
+      "responsibilities": [
+        "Create user-centered designs.",
+        "Conduct user research and testing.",
+        "Collaborate with development teams."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Marketing Specialist",
+      "company": "MarketBoost",
+      "location": "Los Angeles, CA",
+      "responsibilities": [
+        "Develop and implement marketing strategies.",
+        "Create engaging content for various channels.",
+        "Analyze market trends and competitor activities."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Data Scientist",
+      "company": "Data Insights",
+      "location": "Seattle, WA",
+      "responsibilities": [
+        "Collect and analyze large datasets.",
+        "Build predictive models.",
+        "Present findings to stakeholders."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Product Manager",
+      "company": "InnovateTech",
+      "location": "Austin, TX",
+      "responsibilities": [
+        "Define product strategy and roadmap.",
+        "Collaborate with development and design teams.",
+        "Gather and prioritize product requirements."
+      ]
+    },{
+        "id": 6,
+        "title": "Frontend Developer",
+        "company": "WebCrafters",
+        "location": "Chicago, IL",
+        "responsibilities": [
+          "Implement user interfaces with modern frameworks.",
+          "Optimize web applications for performance.",
+          "Collaborate with backend developers."
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Graphic Designer",
+        "company": "Creative Studios",
+        "location": "Miami, FL",
+        "responsibilities": [
+          "Design visually appealing graphics and layouts.",
+          "Create illustrations and digital artwork.",
+          "Collaborate with marketing teams."
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Network Engineer",
+        "company": "ConnectTech",
+        "location": "Denver, CO",
+        "responsibilities": [
+          "Design and implement network infrastructure.",
+          "Troubleshoot network issues.",
+          "Collaborate with IT teams."
+        ]
+      },
+      {
+        "id": 9,
+        "title": "HR Manager",
+        "company": "PeopleFirst",
+        "location": "Dallas, TX",
+        "responsibilities": [
+          "Manage recruitment and onboarding processes.",
+          "Handle employee relations and HR policies.",
+          "Collaborate with leadership on HR strategy."
+        ]
+      },
+      {
+        "id": 10,
+        "title": "iOS Developer",
+        "company": "App Innovators",
+        "location": "San Jose, CA",
+        "responsibilities": [
+          "Develop and maintain iOS applications.",
+          "Collaborate with cross-functional teams.",
+          "Optimize app performance for iOS devices."
+        ]
+      },
+      
   {
     "id": 11,
     "title": "DevOps Engineer",
@@ -165,7 +164,7 @@
       "Collaborate with marketing teams."
     ]
   },
-
+  
   {
     "id": 16,
     "title": "Cybersecurity Analyst",
@@ -276,4 +275,6 @@
       "Ensure compliance with engineering standards."
     ]
   }
-]
+    
+  ]
+  
