@@ -44,7 +44,7 @@ src/
 |-- jobs.json
 ```
 
-## Getting Started
+## Run
 
 1. **Clone the repo:**
    ```bash
@@ -60,10 +60,7 @@ src/
 
 3. **Open in browser:**
    Visit [http://localhost:3000](http://localhost:3000).
-
-## Usage
-
-- Filter jobs, view details, and apply effortlessly.
+   
 
 ## Contributing
 
