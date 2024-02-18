@@ -10,15 +10,11 @@ const jobSlice = createSlice({
     },
     filterJobs: (state, action) => {
       const { title, location, company } = action.payload;
-
-      state.currentPage = 1; // Reset to the first page when filtering
-
-      // Implement filtering logic based on job title, location, and company
+      state.currentPage = 1; 
       state.filteredJobs = state.jobs.filter(job => {
         const titleMatch = title ? job.title.toLowerCase().includes(title.toLowerCase()) : true;
         const locationMatch = location ? job.location.toLowerCase().includes(location.toLowerCase()) : true;
         const companyMatch = company ? job.company.toLowerCase().includes(company.toLowerCase()) : true;
-        
         return titleMatch && locationMatch && companyMatch;
       });
     },
